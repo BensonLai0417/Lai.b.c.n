@@ -1,5 +1,5 @@
 /*Font!!!*/
-html,body,h2,h3,h4,h5,a,p,li,header,nav,center{
+html,body,h2,h3,h5,a,p,li,header,nav,center{
 	line-height: 30px;
 	font-family: 'Noto Sans TC', sans-serif;
 }
@@ -39,6 +39,11 @@ h3{
   font-size: 35px;
   text-align: left;
 } 
+
+h4{
+	line-height: 10px;
+	font-family: 'Noto Sans TC', sans-serif;
+  } 
 /*文字*/
 h5{
   font-size: 18px;
@@ -135,14 +140,30 @@ input{
 	height: auto;
 	border: none;
 	box-shadow: 0 0 12px rgba(0, 0, 0, 0.219);
-	background-color: #ececec75;
+	background-color: #ffffffb6;
 	transition: background-color 0.8s;
+	border-radius: 5px;
+	box-shadow: 0 0 0px ;
 }
 .big_box-class:hover {
-	background-color: #e2e2e2;
+	background-color: #ffffff;
 	-webkit-transform: scale(1.005);
 	-ms-transform: scale(1.005);
 	transform: scale(1.005);
+}
+
+.inf_box-class{
+	outline: none;
+	text-align: left;
+	font-size: 20px;
+	width: 100%;
+	height: 100%;
+	border: none;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.219);
+	transition: background-color 0.8s;
+	border-radius: 5px;
+	box-shadow: 0 0 0px ;
+	font-family: 'Noto Sans TC', sans-serif;
 }
 
 .back_up-class{
@@ -249,3 +270,4 @@ p {
 	  width: 34%;
 	}
   }
+
