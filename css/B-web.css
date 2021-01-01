@@ -57,7 +57,7 @@ h2{
 /*H3_標題用*/
 h3{
   font-size: 35px;
-  line-height: 20px;
+  line-height: 30px;
   text-align: left;
   font-family: 'Noto Sans TC', sans-serif;
 } 
@@ -74,25 +74,33 @@ h5{
   word-break: break-word;
   font-family: 'Noto Sans JP', sans-serif;
 }#text{
-	  letter-spacing: 0.5px;
+	letter-spacing: 0.5px;
 }
 /*_備註用*/
 .a_time-class{
-	font-size: 17px;
+	font-size: 10px;
 	color: rgb(36, 36, 36);
 }
 
 p,li {
   font-size: 16px;
-  line-height: 2;
+  line-height: 28.44px;
   letter-spacing: 1px;
   width:auto;
-  margin-bottom: 32px;
+  font-size: 16px;
 }
 
 a {
    text-decoration:none; 
    font-size: 17px;
+}
+
+.p_time-class{
+	line-height: 0.1px;
+}
+
+.a_box-class{
+	font-size: 18px;
 }
 
 button{
@@ -114,8 +122,8 @@ input{
 #The_big_img {
   display: block;
   margin: 0 auto;
-  width: 100%;
-  height: auto;
+  width: 823dpi;
+  height: 823dpi;
 }
 
 #Logo{
@@ -162,7 +170,6 @@ input{
 .big_box-class{
 	outline: none;
 	text-align: left;
-	font-size: 30px;
 	width: 100%;
 	height: auto;
 	border: none;
