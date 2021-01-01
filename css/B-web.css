@@ -101,6 +101,7 @@ a {
 
 .a_box-class{
 	font-size: 18px;
+	line-height: 30px;
 }
 
 button{
@@ -202,10 +203,12 @@ input{
 	/*圓邊*/
 img{
 	border-radius: 5px;
-	box-shadow: 0 0 2px black;
+	box-shadow: 0 0 3px black;
 }
 
 .img_logo-class{
+	height: 90px;
+	width: 90px;
 	border-radius: 5px;
 	float: left;
 	box-shadow: 0 0 0px black;
